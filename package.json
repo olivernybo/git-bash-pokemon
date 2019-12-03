@@ -1,0 +1,23 @@
+{
+  "name": "git-bash-pokemon",
+  "version": "1.0.0",
+  "description": "Get all pokemons",
+  "main": "getGens.js",
+  "scripts": {
+    "start": "node getGens.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olivernybo/git-bash-pokemon.git"
+  },
+  "author": "Oliver Nybo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/olivernybo/git-bash-pokemon/issues"
+  },
+  "homepage": "https://github.com/olivernybo/git-bash-pokemon#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-fetch": "^2.6.0"
+  }
+}
